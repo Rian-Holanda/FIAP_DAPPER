@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP_ESTUDOS_INFRASTRUCTURE\FIAP_ESTUDOS_INFRASTRUCTURE.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="Business\" />
     <Folder Include="Services\" />
   </ItemGroup>

@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP_ESTUDOS_DADOS\FIAP_ESTUDOS_DADOS.csproj" />
-    <ProjectReference Include="..\FIAP_ESTUDOS_DOMAIN\FIAP_ESTUDOS_DOMAIN.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Interfaces\" />
   </ItemGroup>
 

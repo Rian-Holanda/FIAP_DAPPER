@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP_ESTUDOS_DADOS\FIAP_ESTUDOS_DADOS.csproj" />
+    <Folder Include="ADO\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dapper\" />
-    <Folder Include="ADO\" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
   </ItemGroup>
 
 </Project>
